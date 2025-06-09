@@ -1,0 +1,44 @@
+.Login {
+    background-color: #8f8f8f;
+    height: auto;
+    margin: auto;
+    width: 30vw;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    border-style: solid;
+    border-color: rgb(0, 100, 48);
+    border-radius: 2vw;
+    border-width: 5px;
+    padding: 10px;
+  }
+
+h1 {
+  text-align: center;
+}
+
+#logo-img {
+  width: 50vw;
+}
+
+.page {
+  height: auto;
+  margin: auto;
+  padding-top: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://www.commercebank.com/-/media/cb/images/headers/large-header/challenge-header/personal-full-welcome-circle.jpg?sc=1&amp;revision=ae3b2de6-0b65-4340-9e7f-da8c2eacc92e&amp;modified=20200903145324&amp;hash=CC18783728B5BE5ADA2AEA9E171C957E');
+}
+
+  #button{
+    background-color: rgb(0, 100, 48);
+    border-color: rgb(0, 73, 35);
+    text-align: center;
+    font-size: calc(5px + 2vmin);
+    display: block;
+    margin: auto;
+  }
